@@ -19,7 +19,7 @@ const Create = () => {
             body: JSON.stringify(blog)
             
 
-        }).then(()=>
+        }).then(()=>  
         {
             console.log("blog Added");
             setisload(false);
